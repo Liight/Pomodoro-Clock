@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock (JQuery /JavaScript, BootStrap)[FCC]</title>
+  
+  
+  <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id="main">
+  <!-- MESSAGES -->
+  <h2 id="message">Pomodoro Clock</h2>
+  <!-- SETUP BUTTONS -->
+  <section class="clock row">
+    <div class="col-xs-3"></div>
+    <!-- SESSION CONTROL -->
+    <div class="session col-xs-2">
+      <p>Session Time</p>
+      <button class="btn btn-minus" id="sessionMinus">-</button>
+      <span class="number" id="sessionNumber">25</span>
+      <button class="btn btn-plus" id="sessionPlus">+</button>
+    </div>
+    <!-- BUTTONS FOR START & RESET -->
+    <div class="col-xs-2" id="buttons">
+      <button id="start"><i class="fa fa-play fa-5x"></i></button>
+      <button id="reset"><i class="fa fa-rotate-left fa-5x"></i></button>
+    </div>
+    <!-- BREAK CONTROL -->
+    <div class="break col-xs-2">
+      <p>Break Time</p>
+      <button class="btn btn-minus" id="breakMinus">-</button>
+      <span class="number" id="breakNumber">0</span>
+      <button class="btn btn-plus" id="breakPlus">+</button>
+    </div>
+    <div class="col-xs-3"></div>
+  </section>
+  <!-- TIMER -->
+  <div id="timer">
+    <span id="minutes">25</span> :
+    <span id="seconds">00</span>
+  </div>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

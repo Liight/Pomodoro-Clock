@@ -1,0 +1,84 @@
+/* High Sat Blue 003DF5
+   Low Sat Yellow  FFDB70 */
+@font-face {
+    font-family: DeliciousRoman;
+    src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
+    font-weight:400;
+}
+body {
+  background: #FFDB70;
+  font-family: 'Open Sans';
+  padding-top: 50px;
+}
+/* HEADER */
+
+header {
+  margin-top: 40px;
+  text-align: center;
+}
+/* MAIN */
+
+#main {
+  padding-top: 40px;
+  text-align: center;
+}
+
+#message {
+  color: #F05A28;
+  font-size: 70px;
+  line-height: 1;
+  margin-bottom: 70px;
+  font-family: DeliciousRoman, Helvetica, Arial, sans-serif;
+}
+
+.clock {
+  font-size: 2em;
+}
+
+.session,
+.break {
+  display: inline;
+  padding: 1em;
+  user-select: none;
+  text-align: center;
+}
+
+.btn {
+  font-size: 2em;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #FF6B6B;
+  cursor: pointer;
+  user-select: none;
+}
+
+.number {
+  position: relative;
+  font-size: 2em;
+  top: 0.25em;
+}
+
+#timer {
+  color: #F05A28;
+  font-size: 181px;
+  margin-bottom: 40px;
+}
+/* BUTTONS */
+
+#buttons button {
+  background: TRANSPARENT;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin: auto;
+  padding: 30px;
+  height: 100%;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+#reset {
+  display: none;
+}
